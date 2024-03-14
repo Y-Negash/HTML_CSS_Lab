@@ -1,50 +1,49 @@
 
 header {
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: flex;
-    align-items: center;
-    
-    
+    background: #FFFFFF;
+    color: #000000;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;   
+    align-items: center; 
+    position: sticky;
+    top: 0;
+    background: fixed;
+    background-color: #fff;
+    height: 50px;
+}
+span {
+    font-weight: 300;
 }
 h1 {
     width: 40%;
-    width: 100%;
-    position: sticky;
-    top: 0;
-    padding-top: 60px;
+    padding-left: 60px;
 }
 
 header nav {
     display: flex;
     justify-content: space-around;
-    width: 100%;
-    position: sticky;
-    top: 0;
-    padding-top: 60px;
+    width: 50%;
 }
 
 .title__image{
+   
     background-image: url('./assets/burger.jpg');
-    min-height: 500px;
+    min-height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
-    justify-content: center;
     display: flex;
-    
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 5%;
+    font-size: 30px;
 }
 
 
-header {
-    height: 50%;
-}
-
-
-.container{
+.container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
+    grid-template-columns: 2fr 2fr 2fr;
+    column-gap: 20px;
     
 }
 
@@ -61,6 +60,7 @@ section h2 {
 section p {
     margin-bottom: 20px;
     text-align: center;
+    text-decoration: underline;
 }
 
 footer {
