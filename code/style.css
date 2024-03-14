@@ -9,16 +9,19 @@ header {
 }
 h1 {
     width: 40%;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    padding-top: 60px;
 }
 
 header nav {
     display: flex;
     justify-content: space-around;
-    width: 70%;
-}
-
-header nav a {
-    padding: 25px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    padding-top: 60px;
 }
 
 .title__image{
