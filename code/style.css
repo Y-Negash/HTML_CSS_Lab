@@ -1,0 +1,76 @@
+
+header {
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    
+    
+}
+h1 {
+    width: 40%;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+header nav a {
+    padding: 25px;
+}
+
+.title__image{
+    background-image: url('./assets/burger.jpg');
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+
+header {
+    height: 50%;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    
+}
+
+.container img {
+    width: 100%;
+
+}
+
+section h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+section p {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #063503;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+
