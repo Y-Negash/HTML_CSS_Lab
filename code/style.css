@@ -17,13 +17,16 @@ span {
 }
 h1 {
     width: 40%;
-    padding-left: 60px;
 }
 
 header nav {
     display: flex;
     justify-content: space-around;
-    width: 50%;
+    width: 70%;
+}
+
+header nav a {
+    padding: 25px;
 }
 
 .title__image{
